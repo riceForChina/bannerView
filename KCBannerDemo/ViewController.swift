@@ -48,6 +48,31 @@ class ViewController: UIViewController {
         }
         return bannerView
     }()
+    
+    public var scrollDidAndEndBlock: ((Int,UIView) -> Void)?
+    lazy var containerV: KCScrollContainerView = {
+        let containerView = KCScrollContainerView()
+        containerView.backgroundColor = .gray
+        containerView.collectionView.backgroundColor = .gray
+        containerView.scrollDidAndEndBlock = { [weak self, weak containerView](index, itemView) in
+            
+        }
+        
+        containerView.createListViewBlock = { [weak self](titleStr,rowIndex) in
+            //自定义view
+            let temp = UIView()
+            if rowIndex%2 == 0 {
+                temp.backgroundColor = UIColor.red
+            } else {
+                temp.backgroundColor = UIColor.blue
+            }
+            return temp
+        }
+        
+        self.view.addSubview(containerView)
+        return containerView
+    }()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -55,6 +80,9 @@ class ViewController: UIViewController {
         
         firstBannerView.dataList = [1,2,3,4,5,6]
         firstBannerView.cellSize = CGSize(width: 200, height: 100)
+        
+        containerV.frame = CGRect(x: 10, y: 140, width: self.view.bounds.width - 20, height: 500)
+        containerV.dataList = ["1","2","3"]
     }
 
 

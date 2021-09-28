@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1341842820BBB8CAD7EC7AF1 /* Pods_KCBannerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5D0E857408549696C4B3F4 /* Pods_KCBannerDemo.framework */; };
+		938ABF61AB0D95F42B716056 /* Pods_KCBannerDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F45DBB4B4079F466452386 /* Pods_KCBannerDemoTests.framework */; };
 		AE1072DE27031EC10083C4F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1072DD27031EC10083C4F1 /* AppDelegate.swift */; };
 		AE1072E027031EC10083C4F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1072DF27031EC10083C4F1 /* SceneDelegate.swift */; };
 		AE1072E227031EC10083C4F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE1072E127031EC10083C4F1 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 		AE10731127031F090083C4F1 /* KCBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10731027031F090083C4F1 /* KCBannerView.swift */; };
 		AE10731627031F470083C4F1 /* Timer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10731527031F470083C4F1 /* Timer+Extension.swift */; };
 		AE10731B2703204C0083C4F1 /* KCScaleBannerFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE10731A2703204C0083C4F1 /* KCScaleBannerFlowLayout.swift */; };
+		AE107323270325C70083C4F1 /* KCScrollContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE107322270325C70083C4F1 /* KCScrollContainerView.swift */; };
+		E2422FE9F2C7A3F3A5F88D63 /* Pods_KCBannerDemo_KCBannerDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964028DB3054A4FB0BA84071 /* Pods_KCBannerDemo_KCBannerDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ACBF2328D1B9902A2CCAE7E /* Pods-KCBannerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCBannerDemo.debug.xcconfig"; path = "Target Support Files/Pods-KCBannerDemo/Pods-KCBannerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3B1F6B33A158329AE7176C17 /* Pods-KCBannerDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCBannerDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-KCBannerDemoTests/Pods-KCBannerDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D5D0E857408549696C4B3F4 /* Pods_KCBannerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCBannerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F7C532B0EB507E2B7FA9EF3 /* Pods-KCBannerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCBannerDemo.release.xcconfig"; path = "Target Support Files/Pods-KCBannerDemo/Pods-KCBannerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		669AB41A9C1DA09C53C5C3E3 /* Pods-KCBannerDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCBannerDemoTests.release.xcconfig"; path = "Target Support Files/Pods-KCBannerDemoTests/Pods-KCBannerDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		964028DB3054A4FB0BA84071 /* Pods_KCBannerDemo_KCBannerDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCBannerDemo_KCBannerDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1072DA27031EC00083C4F1 /* KCBannerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCBannerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE1072DD27031EC10083C4F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE1072DF27031EC10083C4F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +65,10 @@
 		AE10731027031F090083C4F1 /* KCBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCBannerView.swift; sourceTree = "<group>"; };
 		AE10731527031F470083C4F1 /* Timer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Timer+Extension.swift"; sourceTree = "<group>"; };
 		AE10731A2703204C0083C4F1 /* KCScaleBannerFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCScaleBannerFlowLayout.swift; sourceTree = "<group>"; };
+		AE107322270325C70083C4F1 /* KCScrollContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCScrollContainerView.swift; sourceTree = "<group>"; };
+		CFEA9BA46B6DD900638417F1 /* Pods-KCBannerDemo-KCBannerDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCBannerDemo-KCBannerDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-KCBannerDemo-KCBannerDemoUITests/Pods-KCBannerDemo-KCBannerDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6F45DBB4B4079F466452386 /* Pods_KCBannerDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KCBannerDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC6BB858D94A6E816E2862B /* Pods-KCBannerDemo-KCBannerDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KCBannerDemo-KCBannerDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-KCBannerDemo-KCBannerDemoUITests/Pods-KCBannerDemo-KCBannerDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1341842820BBB8CAD7EC7AF1 /* Pods_KCBannerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				938ABF61AB0D95F42B716056 /* Pods_KCBannerDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +92,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2422FE9F2C7A3F3A5F88D63 /* Pods_KCBannerDemo_KCBannerDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14727808224A79339D8C16E8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ACBF2328D1B9902A2CCAE7E /* Pods-KCBannerDemo.debug.xcconfig */,
+				4F7C532B0EB507E2B7FA9EF3 /* Pods-KCBannerDemo.release.xcconfig */,
+				CFEA9BA46B6DD900638417F1 /* Pods-KCBannerDemo-KCBannerDemoUITests.debug.xcconfig */,
+				DEC6BB858D94A6E816E2862B /* Pods-KCBannerDemo-KCBannerDemoUITests.release.xcconfig */,
+				3B1F6B33A158329AE7176C17 /* Pods-KCBannerDemoTests.debug.xcconfig */,
+				669AB41A9C1DA09C53C5C3E3 /* Pods-KCBannerDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1EFC36494723E6186C387E77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D5D0E857408549696C4B3F4 /* Pods_KCBannerDemo.framework */,
+				964028DB3054A4FB0BA84071 /* Pods_KCBannerDemo_KCBannerDemoUITests.framework */,
+				D6F45DBB4B4079F466452386 /* Pods_KCBannerDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AE1072D127031EC00083C4F1 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +130,8 @@
 				AE1072F327031EC60083C4F1 /* KCBannerDemoTests */,
 				AE1072FE27031EC60083C4F1 /* KCBannerDemoUITests */,
 				AE1072DB27031EC00083C4F1 /* Products */,
+				14727808224A79339D8C16E8 /* Pods */,
+				1EFC36494723E6186C387E77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +152,7 @@
 				AE1072DF27031EC10083C4F1 /* SceneDelegate.swift */,
 				AE1072E127031EC10083C4F1 /* ViewController.swift */,
 				AE10731027031F090083C4F1 /* KCBannerView.swift */,
+				AE107322270325C70083C4F1 /* KCScrollContainerView.swift */,
 				AE10731527031F470083C4F1 /* Timer+Extension.swift */,
 				AE10731A2703204C0083C4F1 /* KCScaleBannerFlowLayout.swift */,
 				AE1072E327031EC10083C4F1 /* Main.storyboard */,
@@ -144,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE10730427031EC60083C4F1 /* Build configuration list for PBXNativeTarget "KCBannerDemo" */;
 			buildPhases = (
+				A4C7C5F994D363F2EDC58FFD /* [CP] Check Pods Manifest.lock */,
 				AE1072D627031EC00083C4F1 /* Sources */,
 				AE1072D727031EC00083C4F1 /* Frameworks */,
 				AE1072D827031EC00083C4F1 /* Resources */,
+				4461F4D039FD4A175DE4AE94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +207,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE10730727031EC60083C4F1 /* Build configuration list for PBXNativeTarget "KCBannerDemoTests" */;
 			buildPhases = (
+				77CD7E0E180F22EF7F123E97 /* [CP] Check Pods Manifest.lock */,
 				AE1072EC27031EC50083C4F1 /* Sources */,
 				AE1072ED27031EC50083C4F1 /* Frameworks */,
 				AE1072EE27031EC50083C4F1 /* Resources */,
@@ -179,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE10730A27031EC60083C4F1 /* Build configuration list for PBXNativeTarget "KCBannerDemoUITests" */;
 			buildPhases = (
+				5D5858F27624D2A0C989CEE0 /* [CP] Check Pods Manifest.lock */,
 				AE1072F727031EC60083C4F1 /* Sources */,
 				AE1072F827031EC60083C4F1 /* Frameworks */,
 				AE1072F927031EC60083C4F1 /* Resources */,
+				D54950B4F5A96EDF76E59B95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,6 +311,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4461F4D039FD4A175DE4AE94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KCBannerDemo/Pods-KCBannerDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KCBannerDemo/Pods-KCBannerDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KCBannerDemo/Pods-KCBannerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D5858F27624D2A0C989CEE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KCBannerDemo-KCBannerDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77CD7E0E180F22EF7F123E97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KCBannerDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4C7C5F994D363F2EDC58FFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KCBannerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D54950B4F5A96EDF76E59B95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KCBannerDemo-KCBannerDemoUITests/Pods-KCBannerDemo-KCBannerDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KCBannerDemo-KCBannerDemoUITests/Pods-KCBannerDemo-KCBannerDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KCBannerDemo-KCBannerDemoUITests/Pods-KCBannerDemo-KCBannerDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE1072D627031EC00083C4F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -269,6 +421,7 @@
 			files = (
 				AE10731B2703204C0083C4F1 /* KCScaleBannerFlowLayout.swift in Sources */,
 				AE10731127031F090083C4F1 /* KCBannerView.swift in Sources */,
+				AE107323270325C70083C4F1 /* KCScrollContainerView.swift in Sources */,
 				AE1072E227031EC10083C4F1 /* ViewController.swift in Sources */,
 				AE10731627031F470083C4F1 /* Timer+Extension.swift in Sources */,
 				AE1072DE27031EC10083C4F1 /* AppDelegate.swift in Sources */,
@@ -445,6 +598,7 @@
 		};
 		AE10730527031EC60083C4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ACBF2328D1B9902A2CCAE7E /* Pods-KCBannerDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +618,7 @@
 		};
 		AE10730627031EC60083C4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F7C532B0EB507E2B7FA9EF3 /* Pods-KCBannerDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -483,6 +638,7 @@
 		};
 		AE10730827031EC60083C4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B1F6B33A158329AE7176C17 /* Pods-KCBannerDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +661,7 @@
 		};
 		AE10730927031EC60083C4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 669AB41A9C1DA09C53C5C3E3 /* Pods-KCBannerDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +684,7 @@
 		};
 		AE10730B27031EC60083C4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFEA9BA46B6DD900638417F1 /* Pods-KCBannerDemo-KCBannerDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +705,7 @@
 		};
 		AE10730C27031EC60083C4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEC6BB858D94A6E816E2862B /* Pods-KCBannerDemo-KCBannerDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

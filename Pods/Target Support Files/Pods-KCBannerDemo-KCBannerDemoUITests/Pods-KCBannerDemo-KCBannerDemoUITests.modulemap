@@ -1,0 +1,6 @@
+framework module Pods_KCBannerDemo_KCBannerDemoUITests {
+  umbrella header "Pods-KCBannerDemo-KCBannerDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
